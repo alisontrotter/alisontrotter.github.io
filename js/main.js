@@ -10,27 +10,29 @@ ready(function(){
 });
 
 function loadMd(){
-  var page = window.location.hash.length > 2 ? window.location.hash.substr(1)  + '.md' : 'home.md';
+  var page = window.location.hash.length > 2 ? window.location.hash.substr(1) : 'about';
+
+  document.body.className = page;
 
   var request = new XMLHttpRequest();
-  request.open('GET', '/pages/'+page, true);
+  request.open('GET', '/pages/'+page+'.md', true);
 
   request.onload = function() {
     if (this.status >= 200 && this.status < 400) {
       // Success!
       var md = this.response;
       var html = converter.makeHtml(md);
-      document.querySelector('main').innerHTML = html;
+      document.querySelector('.md-content').innerHTML = html;
     }else if( this.status >= 400 && this.status < 500){
-      document.querySelector('main').innerHTML = '<h2>404</h2><p>That page doesn\'t exist.</p>';
+      document.querySelector('.md-content').innerHTML = '<h2>404</h2><p>That page doesn\'t exist.</p>';
     } else {
       // We reached our target server, but it returned an error
-      document.querySelector('main').innerHTML = 'There was an error.';
+      document.querySelector('.md-content').innerHTML = 'There was an error.';
     }
   };
 
   request.onerror = function() {
-    document.querySelector('main').innerHTML = 'There was an error.';
+    document.querySelector('.md-content').innerHTML = 'There was an error.';
   };
 
   request.send();

@@ -1,0 +1,13 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../sass/main.scss",
+		"../sass/_layout.scss",
+		"../sass/_common.scss",
+		"../sass/_header.scss",
+		"../sass/_page-body.scss"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,QAAQ,AAAC,CACP,SAAS,CAAE,KAAK,CAChB,MAAM,CAAE,MAAM,CACd,OAAO,CAAE,MAAM,CAChB,ACGD,AAAA,IAAI,AAAC,CACH,UAAU,CAND,IAAI,CAOd,AAED,AAAA,EAAE,CACF,AAAA,EAAE,CACF,AAAA,EAAE,CACF,AAAA,EAAE,CACF,AAAA,EAAE,AAAC,CACD,KAAK,CAhBM,MAAM,CAiBjB,WAAW,CAbC,OAAO,CAcpB,AElBD,AAAA,QAAQ,AAAC,CACP,OAAO,CAAE,IAAI,CACd,AAED,AAAS,QAAD,CAAC,QAAQ,AAAC,CAChB,OAAO,CAAE,KAAK,CACf"
+}

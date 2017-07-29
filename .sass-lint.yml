@@ -1,0 +1,200 @@
+options:
+  merge-default-rules: false
+
+files:
+  ignore:
+    - 'vc3/sass/base/_superfish.scss'
+    - 'vc3/sass/base/_normalize.scss'
+    - 'vc3/sass/base/_image-gallery.scss'
+
+rules:
+  attribute-quotes:
+    enabled: true
+
+  border-zero:
+    enabled: true
+
+  bem-depth: true
+
+  class-name-format:
+    enabled: true
+    conveconvention: strictbem
+
+  declarations-before-nesting: true
+
+  empty-line-between-blocks: true
+
+  indentation:
+    enabled: true
+
+  leading-zero:
+    enabled: true
+
+  one-declaration-per-line:
+    enabled: true
+
+  no-duplicate-properties:
+    enabled: true
+
+  no-empty-rulesets:
+    enabled: true
+
+  no-misspelled-properties:
+    enabled: true
+
+  single-line-per-selector:
+    enabled: true
+
+  shorthand-values:
+    1
+
+  url-quotes:
+    enabled: true
+
+  variable-name-format:
+    convention: hyphenatedlowercase
+
+  property-sort-order:
+    - 1
+    -
+      order:
+        - 'display'
+        - 'position'
+        - 'bottom'
+        - 'left'
+        - 'right'
+        - 'top'
+        - 'z-index'
+        - 'flex'
+        - 'align-content'
+        - 'align-items'
+        - 'align-self'
+        - 'flex-basis'
+        - 'flex-direction'
+        - 'flex-flow'
+        - 'flex-grow'
+        - 'flex-shrink'
+        - 'flex-wrap'
+        - 'justify-content'
+        - 'order'
+        - 'width'
+        - 'min-width'
+        - 'max-width'
+        - 'height'
+        - 'min-height'
+        - 'max-height'
+        - 'background'
+        - 'background-color'
+        - 'background-image'
+        - 'background-repeat'
+        - 'background-position'
+        - 'background-size'
+        - 'border'
+        - 'border-top'
+        - 'border-right'
+        - 'border-bottom'
+        - 'border-left'
+        - 'border-width'
+        - 'border-top-width'
+        - 'border-right-width'
+        - 'border-bottom-width'
+        - 'border-left-width'
+        - 'border-style'
+        - 'border-top-style'
+        - 'border-right-style'
+        - 'border-bottom-style'
+        - 'border-left-style'
+        - 'border-color'
+        - 'border-top-color'
+        - 'border-right-color'
+        - 'border-bottom-color'
+        - 'border-left-color'
+        - 'border-radius'
+        - 'border-top-left-radius'
+        - 'border-top-right-radius'
+        - 'border-bottom-left-radius'
+        - 'border-bottom-right-radius'
+        - 'box-shadow'
+        - 'box-sizing'
+        - 'clear'
+        - 'float'
+        - 'margin'
+        - 'margin-top'
+        - 'margin-right'
+        - 'margin-bottom'
+        - 'margin-left'
+        - 'outline'
+        - 'outline-color'
+        - 'outline-offset'
+        - 'outline-style'
+        - 'outline-width'
+        - 'overflow'
+        - 'padding'
+        - 'padding-top'
+        - 'padding-right'
+        - 'padding-bottom'
+        - 'padding-left'
+        - 'counters'
+        - 'cursor'
+        - 'opacity'
+        - 'vertical-align'
+        - 'visibility'
+        - 'table-layout'
+        - 'border-collapse'
+        - 'border-spacing'
+        - 'empty-cells'
+        - 'columns'
+        - 'column-gap'
+        - 'column-fill'
+        - 'column-rule'
+        - 'column-span'
+        - 'column-count'
+        - 'column-width'
+        - 'transform'
+        - 'backface-visibility'
+        - 'perspective'
+        - 'perspective-origin'
+        - 'transform-origin'
+        - 'transform-style'
+        - 'list-style'
+        - 'list-style-type'
+        - 'list-style-position'
+        - 'list-style-image'
+        - 'content'
+        - 'color'
+        - 'font'
+        - 'font-family'
+        - 'font-size'
+        - 'font-smoothing'
+        - 'font-style'
+        - 'font-variant'
+        - 'font-weight'
+        - 'letter-spacing'
+        - 'line-height'
+        - 'list-style'
+        - 'page-break'
+        - 'speak'
+        - 'text-align'
+        - 'text-decoration'
+        - 'text-indent'
+        - 'text-overflow'
+        - 'text-rendering'
+        - 'text-shadow'
+        - 'text-transform'
+        - 'text-wrap'
+        - 'white-space'
+        - 'word-spacing'
+        - 'animation'
+        - 'animation-name'
+        - 'animation-duration'
+        - 'animation-timing-function'
+        - 'animation-delay'
+        - 'animation-iteration-count'
+        - 'animation-direction'
+        - 'animation-fill-mode'
+        - 'animation-play-state'
+        - 'transition'
+        - 'transition-delay'
+        - 'transition-duration'
+        - 'transition-property'
+        - 'transition-timing-function'

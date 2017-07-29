@@ -1,0 +1,19 @@
+$main-color: purple;
+$accent-color: pink;
+$bg-color: #eee;
+
+$header-font: Verdana;
+$copy-font: Georgia;
+
+body {
+  background: $bg-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: $main-color;
+  font-family: $header-font;
+}
