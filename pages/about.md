@@ -3,7 +3,3 @@ Alison Trotter is an experienced Kindermusik Educator and has taught numerous cl
 
 ## Curriculum Development
 Alison was honored to be apart of a preschool curriculum development team in 2010 for Kindermusik International. She studied the ebb and flow of music classes and helped craft lessons for unique learners. Alison believes that children of all abilities can enjoy her music classes and she’s always looking to expand her teaching to reach those who may have challenges. All are welcome to join her classes and she continues to see first hand how the power of inclusion can bring community, love, and joy to everyone.
-
-- one
-- two
-- three
