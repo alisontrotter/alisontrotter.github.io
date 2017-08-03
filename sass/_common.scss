@@ -1,12 +1,25 @@
-$main-color: purple;
-$accent-color: pink;
-$bg-color: #eee;
+$purple: #7d4199;
+$teal: #6bc7b8;
+$dark-teal: darken($teal, 13%);
+$pale-yellow: #fffde2;
 
-$header-font: Verdana;
-$copy-font: Georgia;
+$main-color: $purple;
+$accent-color: $teal;
+$bg-color: $pale-yellow;
+$copy-color: darken($pale-yellow, 80%);
+
+$header-font: Amaranth;
+$copy-font: Montserrat;
 
 body {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
   background: $bg-color;
+  color: $copy-color;
+  font-family: $copy-font;
+  line-height: 1.5;
 }
 
 h1,
@@ -16,4 +29,35 @@ h4,
 h5 {
   color: $main-color;
   font-family: $header-font;
+}
+
+h2 {
+  color: $dark-teal;
+  font-size: 2.3em;
+}
+
+h3 {
+  font-size: 1.7em;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  flex-basis: 100%;
+
+  img {
+    width: 30%;
+    min-width: 140px;
+    float: right;
+    margin-left: 16px;
+    margin-bottom: 16px;
+  }
 }

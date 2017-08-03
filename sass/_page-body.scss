@@ -5,3 +5,15 @@
 .contact .cognito {
   display: block;
 }
+
+.page-footer {
+  background: desaturate(darken($pale-yellow, 5%), 5%);
+  padding: 32px;
+  font-size: .875em;
+  color: rgba($copy-color, .8);
+}
+
+.cognito form + div {
+  position: absolute;
+  left: -9999px
+}

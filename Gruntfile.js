@@ -37,15 +37,6 @@ module.exports = function(grunt) {
           configFile: '.sass-lint.yml'
         },
         default: ['sass/*.scss']
-      },
-
-      jshint: {
-        options: {
-          jshintrc: '.jshintrc'
-        },
-        default: {
-          src: ['Gruntfile.js', 'js/*.js']
-        }
       }
   });
 

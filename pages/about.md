@@ -1,4 +1,5 @@
 # About Alison
+![Alison Trotter with her trusty guitar](images/alison-trotter.jpg)
 Alison Trotter is an experienced Kindermusik Educator and has taught numerous classes for children and their families in Columbia, SC since 2003. She especially adores leading large groups in song and dance and her greatest joy is reaching those with special needs through musical experiences.
 
 ## Curriculum Development

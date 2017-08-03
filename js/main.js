@@ -1,5 +1,5 @@
 
-var converter = new showdown.Converter();
+var converter = new showdown.Converter({headerLevelStart: 2});
 
 window.onhashchange = function(){
   loadMd();
